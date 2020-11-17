@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev2_5 Create Table: createElement, appendChild, Loop for in, parseInt</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>Table Generator</h1>
+    
+    <section class="input-section">
+        <label>Rows</label>
+        <input id="inputRows" type="number" placeholder="Enter number">
+
+        <label>Columns</label>
+        <input id="inputColumns" type="number" placeholder="Enter number">
+    
+        <button onclick="generateTable()">Generate Table</button>
+    </section>
+  
+    <section class="example-table">
+        <h2>Example of table</h1>
+        
+        <table id="example">
+            <tr>
+                <td>
+                    1.1
+                </td>
+                <td>
+                    1.2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2.1
+                </td>
+                <td>
+                    2.2
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section class="your-table">
+        <h2>Your table here</h1>
+        <div id="result">
+        </div>
+    </section>
+
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
